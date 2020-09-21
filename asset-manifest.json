@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eliottpark-site/static/css/main.5f361e03.chunk.css",
+    "main.js": "/eliottpark-site/static/js/main.9fad0c8e.chunk.js",
+    "main.js.map": "/eliottpark-site/static/js/main.9fad0c8e.chunk.js.map",
+    "runtime-main.js": "/eliottpark-site/static/js/runtime-main.caf02bc0.js",
+    "runtime-main.js.map": "/eliottpark-site/static/js/runtime-main.caf02bc0.js.map",
+    "static/js/2.0646a6c8.chunk.js": "/eliottpark-site/static/js/2.0646a6c8.chunk.js",
+    "static/js/2.0646a6c8.chunk.js.map": "/eliottpark-site/static/js/2.0646a6c8.chunk.js.map",
+    "index.html": "/eliottpark-site/index.html",
+    "precache-manifest.0f847c16fa6da968634887c4b9bd1d83.js": "/eliottpark-site/precache-manifest.0f847c16fa6da968634887c4b9bd1d83.js",
+    "service-worker.js": "/eliottpark-site/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/eliottpark-site/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0646a6c8.chunk.js.LICENSE.txt": "/eliottpark-site/static/js/2.0646a6c8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/eliottpark-site/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caf02bc0.js",
+    "static/js/2.0646a6c8.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.9fad0c8e.chunk.js"
+  ]
+}
