@@ -1,6 +1,6 @@
 {
   "name": "eliottpark-site",
-  "homepage": "http://eliottpark.github.io/",
+  "homepage": "http://eliottpark.github.io/eliottpark-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

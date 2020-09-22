@@ -1,10 +1,7 @@
 import './App.css';
 import React, {Component} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import { Button, ButtonGroup, Container, Table } from 'reactstrap';
 import AppNavbar from './AppNavbar.js';
-import Interactive from 'react-interactive'; 
-import { NavLink } from 'react-router-dom';
 
 import Overview from './Overview';
 import Skills from './Skills';

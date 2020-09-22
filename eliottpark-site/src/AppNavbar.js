@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink, Button } from 'reactstrap';
 import { HashLink as Link } from 'react-router-hash-link';
-import Interactive from 'react-interactive'; 
 import './App.css';
 
 export default class AppNavbar extends Component {
