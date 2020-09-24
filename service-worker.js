@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eliottpark-site/precache-manifest.9d928424c73949647ac9c1ebd4abffb8.js"
+  "/eliottpark-site/precache-manifest.067b1f5129b8f40f4cccfebb17d0a3a4.js"
 );
 
 self.addEventListener('message', (event) => {
