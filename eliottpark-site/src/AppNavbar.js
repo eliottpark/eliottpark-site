@@ -29,7 +29,8 @@ export default class AppNavbar extends Component {
       // webkitBackdropFilter: 'blur(20px)'
       }}>
       <NavbarBrand  tag={Link} smooth to={`/#top`}>
-          E L I O T T P A R K
+          <span>E L I O T T </span>
+          <span>P A R K</span>
       </NavbarBrand>
       <NavbarToggler onClick={this.toggle}/>
       <Collapse isOpen={this.state.isOpen} navbar>

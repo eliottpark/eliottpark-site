@@ -17,10 +17,41 @@ class Home extends Component {
             <div>
                 <AppNavbar/>
                 <div className='page-section' id='top'>
+                    <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
                     <header className="App-header heading">
-                    <h1 className="heading">
-                        <span>E L I O T T </span>
-                        <span>P A R K</span>
+                    <h1 className="heading" style={{'display':'flex','flexWrap':'wrap'}}>
+                        <div>E L I O T T </div>
+                        <div style={{'marginRight':'70px'}}> </div>
+                        <div>P A R K</div>
                     </h1>
                     <hr className='ninety' style={{backgroundColor:"#cfa154"}}/>        
                     <div className="green body">
