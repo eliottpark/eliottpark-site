@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/eliottpark-site/static/css/main.f05b97cc.chunk.css",
-    "main.js": "/eliottpark-site/static/js/main.1820b82d.chunk.js",
-    "main.js.map": "/eliottpark-site/static/js/main.1820b82d.chunk.js.map",
+    "main.css": "/eliottpark-site/static/css/main.5ba3aaa0.chunk.css",
+    "main.js": "/eliottpark-site/static/js/main.6681ca28.chunk.js",
+    "main.js.map": "/eliottpark-site/static/js/main.6681ca28.chunk.js.map",
     "runtime-main.js": "/eliottpark-site/static/js/runtime-main.caf02bc0.js",
     "runtime-main.js.map": "/eliottpark-site/static/js/runtime-main.caf02bc0.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/eliottpark-site/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.beff66bf.chunk.js": "/eliottpark-site/static/js/2.beff66bf.chunk.js",
-    "static/js/2.beff66bf.chunk.js.map": "/eliottpark-site/static/js/2.beff66bf.chunk.js.map",
+    "static/js/2.5a94d6ec.chunk.js": "/eliottpark-site/static/js/2.5a94d6ec.chunk.js",
+    "static/js/2.5a94d6ec.chunk.js.map": "/eliottpark-site/static/js/2.5a94d6ec.chunk.js.map",
     "index.html": "/eliottpark-site/index.html",
-    "precache-manifest.067b1f5129b8f40f4cccfebb17d0a3a4.js": "/eliottpark-site/precache-manifest.067b1f5129b8f40f4cccfebb17d0a3a4.js",
+    "precache-manifest.374719c39e452ee573fc918d1d2aba95.js": "/eliottpark-site/precache-manifest.374719c39e452ee573fc918d1d2aba95.js",
     "service-worker.js": "/eliottpark-site/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/eliottpark-site/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.f05b97cc.chunk.css.map": "/eliottpark-site/static/css/main.f05b97cc.chunk.css.map",
-    "static/js/2.beff66bf.chunk.js.LICENSE.txt": "/eliottpark-site/static/js/2.beff66bf.chunk.js.LICENSE.txt",
+    "static/css/main.5ba3aaa0.chunk.css.map": "/eliottpark-site/static/css/main.5ba3aaa0.chunk.css.map",
+    "static/js/2.5a94d6ec.chunk.js.LICENSE.txt": "/eliottpark-site/static/js/2.5a94d6ec.chunk.js.LICENSE.txt",
     "static/media/CampanileMtTamalpiasSunset-original.jpg": "/eliottpark-site/static/media/CampanileMtTamalpiasSunset-original.8f85251e.jpg",
     "static/media/Headshot.jpeg": "/eliottpark-site/static/media/Headshot.c6460920.jpeg",
+    "static/media/asend.png": "/eliottpark-site/static/media/asend.2b2c36f9.png",
     "static/media/berkeley-logo-2.png": "/eliottpark-site/static/media/berkeley-logo-2.1dcf6b68.png",
+    "static/media/data100.png": "/eliottpark-site/static/media/data100.123d8418.png",
     "static/media/dna.svg": "/eliottpark-site/static/media/dna.2312614b.svg",
-    "static/media/monitor.svg": "/eliottpark-site/static/media/monitor.19ca0cd4.svg"
+    "static/media/monitor.svg": "/eliottpark-site/static/media/monitor.19ca0cd4.svg",
+    "static/media/scm-200-particle.gif": "/eliottpark-site/static/media/scm-200-particle.32efce9d.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.caf02bc0.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.beff66bf.chunk.js",
-    "static/css/main.f05b97cc.chunk.css",
-    "static/js/main.1820b82d.chunk.js"
+    "static/js/2.5a94d6ec.chunk.js",
+    "static/css/main.5ba3aaa0.chunk.css",
+    "static/js/main.6681ca28.chunk.js"
   ]
 }
