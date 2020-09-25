@@ -11,7 +11,10 @@ import DNA from './media/dna.svg';
 export default class Education extends Component {
     constructor(props) {
         super(props);
-        this.state = {focus: ''};
+        this.state = {focus: '',
+                    bioe:["Instrumentation in Biology and Medicine","BioMEMS & Medical Devices", "BioMEMS Laboratory","Medical Imaging Signals and Systems", "Neural Computation", "Engineering Medical Devices", "Organic Chemistry & Lab", "Linear Algebra + Diff Eq.","Multivariable Calculus", "Physics for Engineers"],
+                    eecs:["Artificial Intelligence","Algorithms for Computational Biology","Efficient Algorithms","Data Structures","Techniques of Data Science","Computer Architecture", "Designing Information Devices and Systems I & II (EE)","Discrete Mathematics and Probability Theory"]
+                };
         this.classValue = this.classValue.bind(this);
     }
 
@@ -31,6 +34,43 @@ export default class Education extends Component {
     }
 
     render () {
+        const type = this.state.focus;
+        let infoContainer;
+        if (0 == type) {
+            infoContainer = <img src={Campanile} className='campanile-pic'/>;
+        } else if (1 == type) {
+            infoContainer = 
+                <div className="white education-info-container">
+                    <div className='button button4'>
+                        <h2>
+                        eecs courses
+                        </h2>
+                    </div>  
+                    <div className='education-button-container'>
+                        {this.state.eecs.map(course => (
+                            <button  className="button3 button">
+                                {course}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+        } else {
+            infoContainer = 
+                <div className="white education-info-container">
+                    <div className='button button4'>
+                        <h2>
+                        bioe courses
+                        </h2>
+                    </div>  
+                    <div className='education-button-container'>
+                        {this.state.bioe.map(course => (
+                            <button  className="button3 button">
+                                {course}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+        }
         return (
             <header className="App-header heading" 
                     style={{'backgroundColor':'#f1efeb'}}>
@@ -74,7 +114,8 @@ export default class Education extends Component {
                             </button> 
                         </div>
                     
-                    <img src={Campanile} className='campanile-pic'/>
+                    {infoContainer}
+
                     </div>
                     <Link class="link" smooth  to={`/#experience`} style={{'transform': 'rotate(-90deg) translate3d(-120px, 0, 0)'}}>
                         <span class="link__arrow">

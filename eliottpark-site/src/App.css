@@ -196,11 +196,35 @@
 
 .button2 {
   background-color: black;
-  /* border: 3px solid #9ec0de; */
   color: white;
+}
+
+.button4 {
+  background-color: transparent;
+  border: 3px solid #9ec0de;
+  color: #696969;
   /* margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px; */
+}
+
+.button4:hover {
+  background-color: rgba(158, 192, 222, 0.2);
+  color: #166bb6;
+  transform: scale(1.05);
+}
+
+.button3 {
+  background-color: transparent;
+  border: 3px solid #696969;
+  color: #696969;
+  margin:10px;
+}
+
+.button3:hover {
+  background-color: #696969;
+  color: white;
+  transform: scale(1.1) translateY(-10px);
 }
 
 .button1:hover {
@@ -283,6 +307,18 @@
   font-weight: 500;
 }
 
+.sub-sub-heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.sub-sub-sub-heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: large;
+  font-weight: 500;
+}
+
 .body {
   font-family: 'Work Sans', sans-serif;
   font-size: large;
@@ -333,6 +369,24 @@ link {
   flex-basis: 100%;
   height: 0;
 }
+
+.paper {
+  padding: 6px 16px;
+  /* border: 3px solid green; */
+  transition-duration: 0.4s;
+  height: min-content;
+  color: black;
+  box-shadow: 0 5px 8px 0 grey;
+  border-radius: 8px;
+  /* width: max-content; */
+}
+
+.paper:hover {
+  transition-duration: 0.4s;
+  /* color: green; */
+  /* transform: scale(1.1); */
+}
+
 
 /*=====================================================================
                           NavBar Component Styles
@@ -651,15 +705,57 @@ link {
 }
 
 .campanile-pic {
-  width: 30vw;
+  width: 40vw;
   border-radius: 6px;
   display: flex;
   position: relative;
+  transition-duration: 0.4s;
+}
 
+.project-image {
+  width: 35vw;
+  height: 20vw;
+  border-radius: 6px;
+  display: flex;
+  position: relative;
+  transition-duration: 0.4s;
+  box-shadow: 0 5px 8px 0 grey;
+  margin-bottom: 20px;
+  /* border: red solid 3px; */
+}
+
+.scm {
+  object-fit: cover;
+  object-position: 25px -30px;
+}
+
+.education-info-container {
+  height: min-content;
+  width: 40vw;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  align-content: center;
+  transition-duration: 0.4s;
+  /* border: 3px solid #73AD21; */
+  /* margin: 10px; */
+}
+
+.education-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: right;
+  align-content: right;
+  justify-content: right;
+  width: 100%;
+  /* border: 3px solid #73AD21; */
 }
 
 .education-box {
-  width:35vw;
+  width:30vw;
   display: flex;
   justify-content: left;
   align-items: left;
@@ -673,7 +769,7 @@ link {
 
 .stacked {
   display: flex;
-  width: 50vw;
+  width: 40vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -682,7 +778,7 @@ link {
 
 .horizontal-box {
   height: min-content;
-  width: 45vw;
+  width: 35vw;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -693,8 +789,8 @@ link {
   margin: 20px;
   padding: 20px;
   background-color: transparent;
-  border: none;
-  border-radius: 10px;
+  border: 3px solid #166bb6;;
+  border-radius: 30px;
   transition-duration: 0.4s;
   color: #696969;
 }
@@ -703,22 +799,22 @@ link {
 
 .horizontal-box:hover {
   /* border: 3px solid #73AD21; */
-  background-color: #696969;
-  color: white;
+  background-color: rgba(158, 192, 222, 0.2);
+  color: #166bb6;
   transform: scale(1.05);
 }
 
 .horizontal-box-top:hover {
   /* border: 3px solid #73AD21; */
-  background-color: #696969;
-  color: white;
+  background-color: rgba(158, 192, 222, 0.2);
+  color: #166bb6;
   transform: scale(1.05) translateY(10px);
 }
 
 .horizontal-box-bottom:hover {
   /* border: 3px solid #73AD21; */
-  background-color: #696969;
-  color: white;
+  background-color: rgba(158, 192, 222, 0.2);
+  color: #166bb6;
   transform: scale(1.05) translateY(-10px);
 }
 
@@ -727,8 +823,8 @@ link {
 }
 
 .horizontal-box-checked{
-  background-color: #696969;
-  color: white;
+  background-color: rgba(158, 192, 222, 0.2);
+  color: #166bb6;
 }
 .horizontal-box-checked:active {
   transform: scale(1.01);
